@@ -1,35 +1,92 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Web Kuliner</title>
-		<meta name="author" content="Azzammil Akbar Ramadhan">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="assets/style.css">
-	</head>
-		
-	<body>
-		<div class="div-utama">
-			<!--Ini bagian header-->
-			<header>
-				<h2>Website Kuliner</h2>
-				<p>Tempat Makan Untuk Kita Semua</p>
-			</header>
-			<!--Ini bagian menu / nav-->
-			<nav class="navigasi">
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ORDER</a></li>
-					<li><a href="#">ABOUT</a></li>
-				</ul>
-			</nav>
-			<!--Ini bagian img-->
-			<div class="banner">
-				<img src="assets/nasipadang.jpeg">
-			</div>
-			<!--Ini bagian footer-->
-			<footer>
-				Copyright &copy; 2023 : Developed by Azzammil Akbar Ramadhan
-			</footer>
-		</div>	
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Azzammil Akbar Ramadhan" />
+    <meta name="title" content="Web Kuliner" />
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <title>Web Kuliner</title>
+  </head>
+
+  <body>
+    <div class="div-utama">
+      <!-- Ini Bagian Header-->
+      <header>
+        <h2>Web Kuliner</h2>
+        <p>Menyediakan Berbagai Menu Kuliner Padang</p>
+      </header>
+
+      <!-- Ini Bagian Menu-->
+      <nav class="navigasi">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ini Bagian Banner-->
+      <div class="banner">
+        <img src="assets/nasipadang.jpg">
+      </div>
+
+      <!-- Bagian Kiri Konten-->
+      <div class="menu-kiri">
+		<div class="kotak">
+			<h3>Pemesanan</h3>
+			<p>Klik Tombol di bawah ini untuk melakukan Pemesanan</p>
+			<a class="tombol tombol-pesan" href="#">Pesan</a>
+		</div>
+      </div>
+
+      <!-- Bagian Tengah Konten-->
+      <div class="menu-tengah">
+		<div class="kotak">
+			<h3>Sate Padang</h3>
+			<p class="posting">di posting pada 12:05 WIB, 27 April 2023</p>
+			<img src="assets/nasipadang.jpg">
+			<p>Sate padang atau lebih sering disebut sate Padang adalah sate khas Minangkabau yang terbuat dari daging sapi yang dipotong 
+			dadu kecil dengan saus pedas di atasnya.Ciri utamanya adalah kuah kuning kental yang terbuat dari 
+			tepung beras yang dicampur dengan kaldu sapi dan jeroan, kunyit, jahe, bawang putih, ketumbar, akar lengkuas, jinten, bubuk kari, dan garam.</p>
+			<a class="tombol tombol-lengkap" href="#">Selengkapnya</a>
+		</div>
+      </div>
+
+      <!-- Ini Bagian Kanan Konten-->
+      <div class="menu-kanan">
+		<div class="kotak">
+			<h3>Berita Terbaru</h3>
+				<nav class="berita">
+					<ul>
+					  <li><a href="#">Berita 1</a></li>
+					  <li><a href="#">Berita 2</a></li>
+					  <li><a href="#">Berita 3</a></li>
+					</ul>
+				</nav>
+		</div>
+      </div>
+	  
+	  <!-- Jadwal Buka -->
+	  <div class="jadwal">
+		<div class="kotak">
+			<h3>Jadwal Buka</h3>
+				<nav  class="gambar">
+					<img src="assets/nasipadang.jpg">
+				</nav>
+				<p> 
+					<b>Jadwal Buka</b><br>
+					Senin - Minggu<br>
+					08.00 WIB - 18.00 WIB<br>
+				</p>
+		</div>
+      </div>	
+
+	
+      <!-- Ini Bagian Footer-->
+      <footer>
+        Copyright &copy; 2023 | Developed by Azzammil Akbar Ramadhan
+      </footer>
+    </div>
+  </body>
 </html>
